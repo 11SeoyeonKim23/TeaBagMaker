@@ -48,7 +48,6 @@ namespace TeaBagMaker
             if (CountOrgNum < 1)
             {
                 MessageBox.Show("티백을 건지세요!", "알림", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                CountOrgNum = 1;
                 this.cbList.Focus();
             }
             else
