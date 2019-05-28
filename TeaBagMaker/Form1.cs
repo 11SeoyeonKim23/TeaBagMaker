@@ -47,6 +47,8 @@ namespace TeaBagMaker
         {
             if (CountOrgNum < 1)
             {
+                this.timer.Enabled = false;
+                //얘를 안하면 매초마다 알림창이 계속 뜸
                 MessageBox.Show("티백을 건지세요!", "알림", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 this.cbList.Focus();
             }
